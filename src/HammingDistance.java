@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class HammingDistance {
 
 	public static void main(String[] args) {
+		
+		//Scanner to read
 		Scanner sc = new Scanner(System.in);
 		int x,y,count=0;
 		

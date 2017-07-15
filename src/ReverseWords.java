@@ -1,7 +1,8 @@
-	import java.util.Scanner;
+import java.util.Scanner;
 
 public class ReverseWords {
 
+	
 		public static void main(String[] args) {
 			
 			String str;
@@ -12,7 +13,9 @@ public class ReverseWords {
 			System.out.println(reverseWords(xyz));
 			
 		}
-			public static String reverseWords(char[] s) {
+			
+		
+		public static String reverseWords(char[] s) {
 			    int i=0;
 			    for(int j=0; j<s.length; j++){
 			        if(s[j]==' '){
@@ -24,9 +27,10 @@ public class ReverseWords {
 			   reverse(s, i, s.length - 1);
 			   return new String(s);
 			
-			}
+		}
+	
 			 
-			public static void reverse(char[] s, int i, int j){
+		public static void reverse(char[] s, int i, int j){
 			    while(i<j){
 			        char temp = s[i];
 			        s[i]=s[j];
@@ -34,5 +38,5 @@ public class ReverseWords {
 			        i++;
 			        j--;
 			    }
-			}
+		}
 }

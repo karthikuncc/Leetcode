@@ -23,7 +23,7 @@ public class StringReverse {
 		 j--;
 		}
 		
-		System.out.println(xyz);
+		System.out.println(new String(xyz));
 	}
 
 }

@@ -22,13 +22,12 @@ public class MissingNumberArray {
 	
 	public static int missingNumber(int[] nums) {
 		            
-	    int i,sum=0;
-		int nsum=0;
-		nsum=(nums.length)*(nums.length+1)/2;
+	    int i,Total=0;
+	    Total=(nums.length)*(nums.length+1)/2;
 		
 		for( i=0;i<nums.length;i++){
-		   sum+= nums[i];
+			Total-= nums[i];
 		 }
-     return nsum-sum;
+     return Total;
 	}
 }		        
